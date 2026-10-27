@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Busca sequencial versus busca binaria</title>
+<desc id="descricao">Grafico com eixo vertical logaritmico de comparacoes para seis tamanhos de vetor. A busca sequencial aumenta de 10 a 5000; a binaria de 4 a 13.</desc>
+<rect width="960" height="560" rx="16" fill="#ffffff"/>
+<text x="100" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#111827">Busca Sequencial vs. Binaria</text>
+<text x="100" y="75" font-family="Arial,sans-serif" font-size="14" fill="#475569">Pior caso | comparacoes logicas (eixo vertical em escala logaritmica)</text>
+<line x1="100" y1="446.0" x2="845" y2="446.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="85" y="450.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#64748b">1</text>
+<line x1="100" y1="360.5" x2="845" y2="360.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="85" y="364.5" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#64748b">10</text>
+<line x1="100" y1="275.0" x2="845" y2="275.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="85" y="279.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#64748b">100</text>
+<line x1="100" y1="189.5" x2="845" y2="189.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="85" y="193.5" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#64748b">1000</text>
+<line x1="100" y1="104.0" x2="845" y2="104.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="85" y="108.0" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#64748b">10000</text>
+<line x1="100" y1="104" x2="100" y2="446" stroke="#64748b"/>
+<line x1="100" y1="446" x2="845" y2="446" stroke="#64748b"/>
+<text x="100.0" y="471" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#475569">10</text>
+<text x="249.0" y="471" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#475569">50</text>
+<text x="398.0" y="471" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#475569">100</text>
+<text x="547.0" y="471" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#475569">500</text>
+<text x="696.0" y="471" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#475569">1000</text>
+<text x="845.0" y="471" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#475569">5000</text>
+<text x="472.5" y="503" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#111827">Tamanho do vetor (n)</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" points="100.0,360.5 249.0,300.7 398.0,275.0 547.0,215.2 696.0,189.5 845.0,129.7 "/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" points="100.0,394.5 249.0,379.5 398.0,373.7 547.0,364.4 696.0,360.5 845.0,350.8 "/>
+<circle cx="100.0" cy="360.5" r="5" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="100.0" cy="394.5" r="5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="249.0" cy="300.7" r="5" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="249.0" cy="379.5" r="5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="398.0" cy="275.0" r="5" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="398.0" cy="373.7" r="5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="547.0" cy="215.2" r="5" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="547.0" cy="364.4" r="5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="696.0" cy="189.5" r="5" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="696.0" cy="360.5" r="5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<circle cx="845.0" cy="129.7" r="5" fill="#dc2626" stroke="white" stroke-width="1.5"/>
+<circle cx="845.0" cy="350.8" r="5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+<line x1="550" y1="43" x2="582" y2="43" stroke="#dc2626" stroke-width="4"/>
+<text x="592" y="48" font-family="Arial,sans-serif" font-size="14" fill="#334155">Sequencial</text>
+<line x1="704" y1="43" x2="736" y2="43" stroke="#2563eb" stroke-width="4"/>
+<text x="746" y="48" font-family="Arial,sans-serif" font-size="14" fill="#334155">Binaria</text>
+<text x="858.0" y="133.7" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#dc2626">5000</text>
+<text x="858.0" y="354.8" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#2563eb">13</text>
+<text x="100" y="534" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Fonte: dados/resultados.csv, gerado pela implementacao em C.</text>
+</svg>
